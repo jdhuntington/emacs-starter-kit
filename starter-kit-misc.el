@@ -123,6 +123,11 @@
 
 ;; Platform-specific stuff
 (when (eq system-type 'darwin)
+  ;; Make sure the COMMAND key is mapped to Meta [M]
+  (setq mac-option-key-is-meta nil)
+  (setq mac-command-key-is-meta t)
+  (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier nil)
   ;; Work around a bug on OS X where system-name is FQDN
   (setq system-name (car (split-string system-name "\\."))))
 
