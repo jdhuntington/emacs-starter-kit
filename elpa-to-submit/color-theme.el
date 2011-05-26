@@ -1718,11 +1718,11 @@ If you are missing standard faces in this theme, please notify the maintainer."
      (message-header-to-face ((t (:foreground "MidnightBlue" :bold t))))
      (message-header-xheader-face ((t (:foreground "blue"))))
      (message-separator-face ((t (:foreground "brown"))))
-     (mode-line ((t (:foreground "Black" :background "#dddddd"
-                                 :box (:color "#888888" :line-width 1)))))
-     (mode-line-inactive ((t (:background "#aaaaaa" :foreground "Black"
-                                          :box (:color "#888888" :line-width 1)))))
-     (mode-line-buffer-id ((t (:foreground "Black"))))
+     (mode-line ((t (:foreground "Black" :background "#aaccff"
+                                 :box (:color "#ddddff" :line-width 1)))))
+     (mode-line-inactive ((t (:background "#cccccc" :foreground "#999999"
+                                          :box (:color "#dddddd" :line-width 1)))))
+     (mode-line-buffer-id ((t (:foreground "#333333"))))
      (mode-line-mousable ((t (:foreground "white" :background "black"))))
      (mode-line-mousable-minor-mode ((t (:foreground "white" :background "black"))))
      (region ((t (:background "gray"))))
